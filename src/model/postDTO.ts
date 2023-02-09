@@ -7,17 +7,18 @@ export enum POST_TYPES {
     EVENT = "event"
  }
  
-export type Post = {
+export interface insertPostInputDTO {
     id: string,
     photo: string,
     description: string,
     type: POST_TYPES,
     createdAt: Date,
+    author_id: string
     
  }
  export interface PostInputDTO {
     photo: string,
     description: string,
-    type: POST_TYPES
-
+    type: POST_TYPES,
+    authorId: string
  }

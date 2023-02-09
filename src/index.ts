@@ -1,14 +1,14 @@
 import { app } from "./app";
 import { UserController } from "./controller/UserController";
-import { PostController } from "./controller/PostController";
+import { postRouter } from "./routes/postRouter";
+
 
 const userController = new UserController
 
-const postController = new PostController
-
 app.post('/create', userController.createUser)
 
-app.post('/posts', postController.createPost)
-// app.get('/find', postController.findPostById)
+app.use("/post",postRouter)
+
+
 
 
