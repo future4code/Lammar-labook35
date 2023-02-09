@@ -27,6 +27,7 @@ LINK do DEPLOY
 https://labook-yg59.onrender.com
 
 LINK DA DOCUMENTAÇÃO NO POSTMAN
+https://documenter.getpostman.com/view/22372686/2s935rKhfS
 
 
 
