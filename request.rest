@@ -1,0 +1,19 @@
+### Criar Usuário
+POST http://localhost:3003/create
+Content-Type: application/json
+
+{
+    "name": "juciMachado@gmail.com",
+    "email": "jm@email.com",
+    "password": "2899323638"
+}
+
+### Criar Post
+POST http://localhost:3003/post
+
+{
+    "photo": "test",
+    "description": "Dia bom",
+    "type": "normal",
+    "authorId": "51d7aee1-81f9-40f8-99ab-b458af26124f"
+}
